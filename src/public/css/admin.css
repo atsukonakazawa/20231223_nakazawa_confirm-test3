@@ -1,0 +1,170 @@
+body {
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.header {
+    background: white;
+    width: 100%;
+}
+
+.header__inner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__title {
+    margin-left: 480px;
+    color: #877464;
+    font-size: 35px;
+    font-family: 'Kaisei Decol', serif;
+    font-weight: lighter;
+}
+
+.link-button {
+    margin: 30px 20px 20px auto;
+    padding: 5px 10px 0px 10px;
+    background-color: #F6F6F6;
+    border: solid 1px #D9C6B5;
+}
+
+a {
+    text-decoration: none;
+    color: #D9C6B5;
+    font-family: 'Kaisei Decol', serif;
+    font-weight: lighter;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.title-inner {
+    width: 100%;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #877464;
+    font-family: 'Kaisei Decol', serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.admin-content {
+    width: 90%;
+}
+
+.admin-content__inner {
+    padding-bottom: 50px;
+}
+
+.search-form{
+    width: 100%;
+}
+
+.search-form__inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-form__input{
+    width: 300px;
+    height: 100px;
+    color: #CBC1B9;
+    border: #877464;
+}
+
+.search-select__gender{
+    width: 200px;
+    height: 100px;
+    color: #CBC1B9;
+    border: #877464;
+}
+
+.search-select__category{
+    width: 250px;
+    height: 100px;
+    color: #CBC1B9;
+    border: #877464;
+}
+
+.search-select__date{
+    width: 250px;
+    height: 100px;
+    color: #CBC1B9;
+    border: #877464;
+}
+
+.export-pages{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.export-button{
+    width: 100px;
+    height: 100px;
+    color: #CBC1B9;
+    border: #877464;
+}
+
+.pages{
+    color: #CBC1B9;
+    height: 100px;
+}
+
+.search-table__outer{
+    width: 100%;
+}
+
+.search-table{
+    width: 100%;
+}
+
+.search-table__title-row{
+    height: 70px;
+    background-color: #877464;
+    color: white;
+    font-weight: lighter;
+}
+
+.search-table__first-row,
+.search-table__second-row,
+.search-table__third-row{
+    height: 100px;
+    border: 1px solid;
+}
+
+.reset-button__outer{
+    width: 100%;
+    text-align: center;
+}
+
+.reset-button{
+    width: 300px;
+    height: 60px;
+    margin: 30px auto;
+}
+
+.reset-button__submit{
+    padding: 10px 30px;
+    background-color: #877464;
+    color: white;
+    font-weight: lighter;
+}
